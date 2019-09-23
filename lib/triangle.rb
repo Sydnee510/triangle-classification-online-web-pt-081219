@@ -29,7 +29,7 @@ class Triangle
     end
 
   end
-
+def illegal 
 end
 
 class TriangleError < StandardError
