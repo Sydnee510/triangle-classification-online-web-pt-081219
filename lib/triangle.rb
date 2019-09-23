@@ -36,7 +36,7 @@ def illegal
 else 
 true 
 end 
-end
+
 class TriangleError < StandardError
   # triangle error code
 end
