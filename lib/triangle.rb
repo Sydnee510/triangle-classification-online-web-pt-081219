@@ -36,9 +36,10 @@ def illegal
 else 
 true 
 end 
-
+end
 class TriangleError < StandardError
   # triangle error code
+end
 end
 # class Triangle
 #   attr_accessor :x, :y, :z
