@@ -1,5 +1,5 @@
 class Triangle
-  attr_accessor 
+  attr_accessor :equilateral, 
   def initialize(2, 2, 2)
   # write code here
   class TriangleError < StandardError
