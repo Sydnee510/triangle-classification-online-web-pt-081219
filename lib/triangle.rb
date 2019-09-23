@@ -30,8 +30,14 @@ class Triangle
 
   end
 def illegal 
-end
+  if (s_1 == 0 || s_2 == 0 || s_3 == 0) || (s_1 < 0 || s_2 < 0 ||s_3 < 0) || (s_1 + s_2 <= s_3 || s_2 + s_3 <= s_1 || s_1 + s_3 <= s_2 )  
+    raise TriangleError 
 
+else 
+
+true 
+end 
+end
 class TriangleError < StandardError
   # triangle error code
 end
