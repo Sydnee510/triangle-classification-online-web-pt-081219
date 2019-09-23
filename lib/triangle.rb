@@ -74,6 +74,7 @@
 
 # a = Triangle.new(5, 5, 5)
 # a.kind
+class Triangle
 attr_accessor :side1, :side2, :side3
   @sides = []
 
